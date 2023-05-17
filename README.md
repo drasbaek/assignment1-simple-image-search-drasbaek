@@ -72,5 +72,7 @@ python src/knn_search --filename "image_0023.jpg" --top_n 8
 ![alt text](https://github.com/AU-CDS/assignment1-simple-image-search-drasbaek/blob/main/out/knn/knn_most_similar.png?raw=True)
 
 ## Discussion
+As expected, the results reveal that the KNN image search based on VGG16 features is far superior to the search based on color channels. <br>
 
+For the color channel search, it is only `image_0358.jpg` that looks like a similar species to the target image. However, for the KNN search, all five similar flowers are very similar to the target and presumably the same species. Still, it must be emphasized that this is merely one example and results may vary depending on the chosen image. Therefore, running modified analyses as described above should be encouraged to test whether the tendency holds.
 
