@@ -12,7 +12,7 @@ This repository includes the solution by *Anton Drasbæk Schiønning (202008161)
 
 It is used to complete an image search on an image database, such as the [Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/), to identify the most similar images to a selected one. To achieve this, two search methods are investigated: 
 1. Similarity based on color channels
-2. Similarity based on k-nearest neighbors algorithm using image features extracted using *VGG16*.
+2. Similarity based on k-nearest neighbors algorithm using image features extracted using [VGG16](https://www.mathworks.com/help/deeplearning/ref/vgg16.html)
 <br/><br/>
 
 ## Repository Tree <a name="tree"></a>
