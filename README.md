@@ -63,7 +63,7 @@ bash setup.sh
 The adaptations to running an analysis with modifications are available through using the two arguments:
 | Argument              | Default Value | Description                                                             |
 |---------------------|---------------|-------------------------------------------------------------------------|
-| `--filename` `-f`      | "image_033.png"         | Filename specifying which image to base search on.       |
+| `--filename` `-f`      | "image_0033.jpg"         | Filename specifying which image to base search on.       |
 | `--top_n` `-n`       | 5           | How many most similar images to find.                                          |
 <br>
 
