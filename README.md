@@ -37,7 +37,7 @@ It is used to complete an image search on an image database, such as the [Flower
 ```
 <br/><br/>
 ## Usage <a name="gusage"></a>
-This project only assumes that you have Python3 installed. The file `flowers.zip` in `data` should be unpacked and inserted into the data directory. The "flowers" folder that you get is added to .gitignore, so it will not be pushed. <br>
+This project only assumes that you have Python3 installed. The file `flowers.zip` in `data` should be unpacked and inserted into the data directory. The `flowers` folder that you get is added to `.gitignore`, so it will not be pushed. <br>
 
 To run the full analysis, including an image search using both color channels and KNN, run the `run.sh` file from the root directory:
 ```
@@ -61,10 +61,11 @@ bash setup.sh
 ```
 ### Run Modified Analysis
 The adaptations to running an analysis with modifications are available through using the two arguments:
-```
-- f- --filename (default: image_0333.png)
-- n- --top_n (default: 5)
-```
+| Argument              | Default Value | Description                                                             |
+|---------------------|---------------|-------------------------------------------------------------------------|
+| `--filename` `-f`      | "image_033.png"         | Filename specifying which image to base search on.       |
+| `--top_n` `-n`       | 5           | How many most similar images to find.                                          |
+<br>
 
 These can be used for both the analysis for color channels and for the KNN as such:
 ```
